@@ -25,5 +25,20 @@
       <center>Hello, and welcome to the online code editor, Netrix!, program in up to 1 language (more coming soon...)</center>
     </span>
   </div>
+  
+  <div id="code">
+    <span id="curl"></span>
+   <select id="language">
+     <option value="ruby">Ruby</option>
+   </select>
+  </div>
+  
+  <script>
+   var sell = document.getElementById("language").name;
+   var curl = document.getElementById("curl");
+   if(sell=="Ruby") {
+     curl.innerHTML = "Current Language: Ruby";
+   }
+  </script>
 </body>
 </html>
